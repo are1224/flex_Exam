@@ -1,0 +1,24 @@
+.test{
+    font-size: 20rem;
+}
+
+.box_container{
+    width: 500px;
+    height : 130px;
+    border-radius : 5px;
+    border: 2px solid lightgray; 
+    /* flex-direction: column; */
+    display:flex;
+    justify-content: space-around; /* main axis 만 건든다.*/
+    align-items: center; /* cross axis를 건든다.*/
+}
+
+.box_item{
+    width: 100px;
+    height: 100px;
+    border-radius : 5px;
+    background-color: lightgray;
+    
+    margin:3px;
+}
+
